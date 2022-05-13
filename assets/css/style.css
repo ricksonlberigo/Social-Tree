@@ -1,0 +1,84 @@
+/* VARIÁVEIS */
+:root {
+  --hue: 270;
+  font-size: 62.5%;
+
+  --background: hsl(var(--hue), 60%, 98%);
+  --primary-color: hsl(var(--hue), 50%, 73%);
+}
+
+/* GERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Poppins';
+  font-size: 1.6rem;
+  background: var(--background);
+  color: var(--primary-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* CLASSES UTILITÁRIAS */
+.content {
+  padding-block: 5rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SECTION HERO IMG */
+.hero-img a {
+  display: block;
+  margin-top: 1.6rem;
+}
+
+/* SECTION LINKS BTN */
+.links-btn {
+  margin-top: 3.2rem;
+}
+
+.links-btn .btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 36.2rem;
+  height: 4.9rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.4rem;
+  margin-bottom: 1.6rem;
+  text-align: center;
+  padding-block: 1.3rem;
+}
+
+/* SECTION SOCIAL LINKS */
+.social-links {
+  margin-top: 6.8rem;
+}
+
+.social-links nav ul {
+  display: flex;
+  gap: 3rem;
+}
